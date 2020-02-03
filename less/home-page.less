@@ -21,6 +21,7 @@
             border-radius: 20px;
             height: 100%;
         }
+
     }
 
     .tech-text{
@@ -66,6 +67,26 @@
                 width: 100%;
                 height: auto;
                 border-radius: 10px;
+            }
+        }
+
+        @media @phone{
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .sign-text{
+                display: block;
+                width: 110%;
+
+                .btn{
+                    width: 100%;
+                    padding: 2.5rem 0;
+                }
+            }
+
+            .walk-img{
+                display: block;
+                width: 110%;
             }
         }
     }

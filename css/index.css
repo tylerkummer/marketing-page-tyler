@@ -199,6 +199,12 @@ p {
   text-decoration: none;
   color: #454A59;
 }
+@media (max-width: 500px) {
+  .top .welcome {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -274,4 +280,22 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .sign-up {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .home .sign-up .sign-text {
+    display: block;
+    width: 110%;
+  }
+  .home .sign-up .sign-text .btn {
+    width: 100%;
+    padding: 2.5rem 0;
+  }
+  .home .sign-up .walk-img {
+    display: block;
+    width: 110%;
+  }
 }
