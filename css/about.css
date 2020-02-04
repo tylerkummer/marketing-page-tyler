@@ -232,3 +232,18 @@ footer {
 .home .team .member img {
   margin: 2rem;
 }
+@media (max-width: 500px) {
+  .home .team .anthony,
+  .home .team .jarrod,
+  .home .team .sami,
+  .home .team .tyler {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .team .edvin,
+  .home .team .jose,
+  .home .team .tyge {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
