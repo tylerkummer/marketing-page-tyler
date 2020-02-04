@@ -260,6 +260,24 @@ footer {
   height: auto;
   border-radius: 1rem;
 }
+@media (max-width: 500px) {
+  .home .one-time {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .home .one-time .one-time-text {
+    display: block;
+    width: 110%;
+  }
+  .home .one-time .one-time-text .btn {
+    width: 100%;
+    padding: 2.5rem 0;
+  }
+  .home .one-time .one-time-pic {
+    display: block;
+    width: 110%;
+  }
+}
 .home .anything {
   margin-top: 6rem;
   border-top: 1px solid #dee2e6;
@@ -284,6 +302,24 @@ footer {
 }
 .home .anything .anything-text p {
   margin-top: 2.6rem;
+}
+@media (max-width: 500px) {
+  .home .anything {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .anything .anything-text {
+    display: block;
+    width: 110%;
+  }
+  .home .anything .anything-text .btn {
+    width: 100%;
+    padding: 2.5rem 0;
+  }
+  .home .anything .anything-pic {
+    display: block;
+    width: 110%;
+  }
 }
 .home .sign-up {
   margin-top: 6rem;
@@ -319,10 +355,6 @@ footer {
     display: block;
     width: 110%;
   }
-  .home .sign-up .sign-text .btn {
-    width: 100%;
-    padding: 2.5rem 0;
-  }
   .home .sign-up .old-tech-image {
     display: block;
     width: 110%;
@@ -345,4 +377,10 @@ footer {
   background-color: lightblue;
   color: skyblue;
   cursor: pointer;
+}
+@media (max-width: 500px) {
+  .home .btn {
+    width: 80%;
+    padding: 2.5rem 0;
+  }
 }

@@ -54,6 +54,26 @@
             }
         }
 
+        @media @phone{
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .one-time-text{
+                display: block;
+                width: 110%;
+
+                .btn{
+                    width: 100%;
+                    padding: 2.5rem 0;
+                }
+            }
+
+            .one-time-pic{
+                display: block;
+                width: 110%;
+            }
+        }
+
 
     }
 
@@ -84,6 +104,26 @@
 
             p{
                 margin-top: 2.6rem;
+            }
+        }
+
+        @media @phone{
+            flex-direction: column;
+            align-items: center;
+
+            .anything-text{
+                display: block;
+                width: 110%;
+
+                .btn{
+                    width: 100%;
+                    padding: 2.5rem 0;
+                }
+            }
+
+            .anything-pic{
+                display: block;
+                width: 110%;
             }
         }
 
@@ -127,11 +167,6 @@
             .sign-text{
                 display: block;
                 width: 110%;
-
-                .btn{
-                    width: 100%;
-                    padding: 2.5rem 0;
-                }
             }
 
             .old-tech-image{
@@ -143,5 +178,11 @@
 
     .btn{
         .btn-frame;
+
+        @media @phone{
+            width: 80%;
+            padding: 2.5rem 0;
+        }
+        
     }
 }
