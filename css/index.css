@@ -1,12 +1,15 @@
 .btn-frame {
   background-color: #23293B;
   color: white;
-  padding: 1rem;
-  width: 100px;
+  padding: 3rem;
+  width: 60rem;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 1rem;
   font-size: 1.8rem;
   font-weight: bolder;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 .btn-frame:hover {
   background-color: lightblue;
@@ -216,10 +219,10 @@ footer {
   align-items: center;
 }
 .home .intro h2 {
-  padding: 15px;
+  padding: 1.5rem;
 }
 .home .intro p {
-  padding: 0 15px;
+  padding: 0 1.5rem;
 }
 .home .tech-images {
   display: flex;
@@ -228,23 +231,64 @@ footer {
 }
 .home .tech-images img {
   width: 28%;
-  margin: 20px 2.5%;
-  border-radius: 20px;
+  margin: 2rem 2.5%;
+  border-radius: 2rem;
   height: 100%;
 }
-.home .tech-text {
-  padding: 15px;
+.home .one-time {
+  margin-top: 6rem;
+  border-top: 1px solid #dee2e6;
+  padding: 5rem 6rem;
+  display: flex;
+  justify-content: center;
 }
-.home .tech-text h3 {
-  margin-top: 11px;
+.home .one-time .one-time-text {
+  width: 50%;
 }
-.home .tech-text p {
-  margin-top: 13px;
+.home .one-time .one-time-text h3 {
+  margin-top: 1rem;
+}
+.home .one-time .one-time-text p {
+  margin-top: 2.6rem;
+}
+.home .one-time .one-time-pic {
+  width: 46%;
+  margin-right: 4%;
+}
+.home .one-time .one-time-pic img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+.home .anything {
+  margin-top: 6rem;
+  border-top: 1px solid #dee2e6;
+  padding: 5rem 6rem;
+  display: flex;
+  justify-content: center;
+}
+.home .anything .anything-pic {
+  width: 46%;
+  margin-right: 4%;
+}
+.home .anything .anything-pic img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+.home .anything .anything-text {
+  width: 50%;
+}
+.home .anything .anything-text h3 {
+  margin-top: 1rem;
+}
+.home .anything .anything-text p {
+  margin-top: 2.6rem;
 }
 .home .sign-up {
-  margin-top: 60px;
+  margin-top: 6rem;
   border-top: 1px solid #dee2e6;
-  padding: 50px 60px;
+  padding: 5rem 6rem;
   display: flex;
   justify-content: center;
 }
@@ -252,25 +296,10 @@ footer {
   width: 50%;
 }
 .home .sign-up .sign-text h3 {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 .home .sign-up .sign-text p {
-  margin-bottom: 26px;
-}
-.home .sign-up .sign-text .btn {
-  background-color: #23293B;
-  color: white;
-  padding: 1rem;
-  width: 100px;
-  text-align: center;
-  border-radius: 10px;
-  font-size: 1.8rem;
-  font-weight: bolder;
-}
-.home .sign-up .sign-text .btn:hover {
-  background-color: lightblue;
-  color: skyblue;
-  cursor: pointer;
+  margin-bottom: 2.6rem;
 }
 .home .sign-up .old-tech-image {
   width: 46%;
@@ -279,7 +308,7 @@ footer {
 .home .sign-up .old-tech-image img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 @media (max-width: 500px) {
   .home .sign-up {
@@ -294,8 +323,26 @@ footer {
     width: 100%;
     padding: 2.5rem 0;
   }
-  .home .sign-up .walk-img {
+  .home .sign-up .old-tech-image {
     display: block;
     width: 110%;
   }
+}
+.home .btn {
+  background-color: #23293B;
+  color: white;
+  padding: 3rem;
+  width: 60rem;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.home .btn:hover {
+  background-color: lightblue;
+  color: skyblue;
+  cursor: pointer;
 }
