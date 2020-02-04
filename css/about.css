@@ -1,6 +1,5 @@
 .btn-frame {
   background-color: #23293B;
-  color: white;
   padding: 3rem;
   width: 60rem;
   text-align: center;
@@ -11,10 +10,16 @@
   align-items: center;
   margin-bottom: 2rem;
 }
+.btn-frame a {
+  text-decoration: none;
+  color: white;
+}
 .btn-frame:hover {
   background-color: lightblue;
-  color: skyblue;
   cursor: pointer;
+}
+.btn-frame:hover a {
+  color: skyblue;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -217,4 +222,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .team .member {
+  display: flex;
+}
+.home .team .member h3 {
+  margin: 10rem;
+}
+.home .team .member img {
+  margin: 2rem;
 }

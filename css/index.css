@@ -1,6 +1,5 @@
 .btn-frame {
   background-color: #23293B;
-  color: white;
   padding: 3rem;
   width: 60rem;
   text-align: center;
@@ -11,10 +10,16 @@
   align-items: center;
   margin-bottom: 2rem;
 }
+.btn-frame a {
+  text-decoration: none;
+  color: white;
+}
 .btn-frame:hover {
   background-color: lightblue;
-  color: skyblue;
   cursor: pointer;
+}
+.btn-frame:hover a {
+  color: skyblue;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -362,7 +367,6 @@ footer {
 }
 .home .btn {
   background-color: #23293B;
-  color: white;
   padding: 3rem;
   width: 60rem;
   text-align: center;
@@ -373,10 +377,16 @@ footer {
   align-items: center;
   margin-bottom: 2rem;
 }
+.home .btn a {
+  text-decoration: none;
+  color: white;
+}
 .home .btn:hover {
   background-color: lightblue;
-  color: skyblue;
   cursor: pointer;
+}
+.home .btn:hover a {
+  color: skyblue;
 }
 @media (max-width: 500px) {
   .home .btn {
