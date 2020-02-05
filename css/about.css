@@ -247,6 +247,7 @@ footer {
 }
 .home .team .member {
   display: flex;
+  justify-content: center;
 }
 .home .team .member h3 {
   margin: 10rem;
