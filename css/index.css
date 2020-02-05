@@ -251,6 +251,9 @@ footer {
 .home .intro p {
   padding: 0 1.5rem;
 }
+.home .intro img {
+  width: 100%;
+}
 .home .tech-images {
   display: flex;
   flex-wrap: wrap;
