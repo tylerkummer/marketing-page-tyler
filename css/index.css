@@ -188,7 +188,7 @@ p {
   line-height: 1.4;
 }
 .container {
-  max-width: 800px;
+  max-width: 80rem;
   width: 100%;
   margin: 0 auto;
   background-color: white;
