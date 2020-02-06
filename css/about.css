@@ -1,31 +1,17 @@
-.btn-frame {
-  background-color: #23293B;
-  padding: 3rem;
-  width: 60rem;
-  text-align: center;
-  border-radius: 1rem;
-  font-size: 1.8rem;
-  font-weight: bolder;
-  margin: 0 auto;
-  align-items: center;
-  margin-bottom: 2rem;
-}
-.btn-frame a {
-  text-decoration: none;
+.btn-prompt {
   color: white;
+  margin: 2rem;
+  width: 80%;
+  padding: 3rem;
+  background-color: black;
+  border-radius: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
 }
-.btn-frame:hover {
-  background-color: lightblue;
+.btn-prompt:hover {
+  background-color: gray;
   cursor: pointer;
-}
-.btn-frame:hover a {
-  color: skyblue;
-}
-@media (max-width: 500px) {
-  .btn-frame {
-    width: 80%;
-    padding: 2.5rem 0;
-  }
 }
 .box-top {
   margin-top: 6rem;
@@ -181,6 +167,7 @@ html,
 body {
   font-family: 'Ubuntu', sans-serif;
   color: #5E6164;
+  background-color: lightgray;
 }
 h1,
 h2,
@@ -201,9 +188,10 @@ p {
   line-height: 1.4;
 }
 .container {
-  max-width: 800px;
+  max-width: 80rem;
   width: 100%;
   margin: 0 auto;
+  background-color: white;
 }
 .top {
   background-color: #F6F6F6;
